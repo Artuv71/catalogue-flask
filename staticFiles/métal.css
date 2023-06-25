@@ -1,0 +1,33 @@
+body 
+{
+    background-image: url("/staticFiles/images/parchemin.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.my-text {
+    margin-left: 15%;
+  }
+
+.container {
+    display: flex; 
+    align-items: center; 
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  
+img {
+    margin-right: 10px; 
+  }
+
+
+h1{
+    padding-left: 15%;
+}
+
+p{
+    padding-left: 15%;
+}
+img{
+    width: 150px;
+    height: 150px;
+}

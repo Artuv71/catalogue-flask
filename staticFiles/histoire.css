@@ -1,0 +1,20 @@
+.my-text {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+body 
+{
+    background-image: url("/staticFiles/images/parchemin.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}

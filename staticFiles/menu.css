@@ -1,0 +1,57 @@
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #333;
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0 10px;
+  color: #fff;
+  line-height: 60px;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background-color: #4b4b4b;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 60px;
+}
+
+nav ul li:hover > ul {
+  display: inherit;
+}
+
+nav ul ul li {
+  width: 200px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+nav ul ul ul li {
+  position: relative;
+  top: -60px;
+  left: 200px;
+}
+
+nav a:hover {
+  color: #fff;
+  background-color: #f00;
+}
+
+body {
+  font-family: Arial;
+  font-size: 16px;
+  color: #000;
+}

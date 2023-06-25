@@ -1,0 +1,10 @@
+body 
+{
+    background-image: url("/staticFiles/images/entrée_de_la_forge.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+}

@@ -1,0 +1,15 @@
+body 
+{
+    background-image: url("/staticFiles/images/forge.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+p{
+    color: white;
+}

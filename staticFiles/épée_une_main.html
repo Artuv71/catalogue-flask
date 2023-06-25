@@ -1,0 +1,60 @@
+<html lang="fr">
+    <head>
+        <link rel="stylesheet" href="/staticFiles/menu.css">
+        
+        <nav>
+        <ul>
+            <li><a href="/">Acceuil</a></li>
+            <li>
+                <a href="">Ventes</a>
+            <ul>
+                <li><a href="/dague">dague</a></li>
+                <li><a href="/épée_une_main">épée une main</a></li>
+                <li><a href="/épée_deux_mains">épée deux mains</a></li>
+            </ul>
+            </li>
+            <li><a href="">à propos</a>
+            <ul>
+                <li><a href="/notre_histoire">notre histoire</a></li>
+                <li><a href="/métal">nos métaux</a></li>
+                <li><a href="/contact">nous contacter</a></li>
+            </ul>
+            </li>
+            <li><a href="/mes_commandes">Mon panier</a></li>
+        </ul>
+        </nav>
+        <link rel="stylesheet" href='/staticFiles/commande.css' />
+        <title>Epée une main</title>
+    </head>
+    <body>
+        <h1>Voici les épées une main que nous forgeons.</h1>
+        <p><a href=' /commande '>choisir une autre lame</button></a></p>
+        <div class="container">
+            <img src="/staticFiles/images/épée_une_main.PNG" alt="image">
+            <table>
+                <thead>
+                    <tr>
+                        <th>type d'épée</th>
+                        <th>métal</th>
+                        <th>prix</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in data %}
+                    <tr>
+                        <td>{{ row[0] }}</td>
+                        <td>{{ row[1] }}</td>
+                        <td>{{ row[2] }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <div class="button-container">
+                <td><p></p></td>
+                <td><button onclick="window.location.href=' /épée_une_main_cuivre '">faire forger</button></td>
+                <td><button onclick="window.location.href=' /épée_une_main_fer '">faire forger</button></td>
+                <td><button onclick="window.location.href=' /épée_une_main_acier '">faire forger</button></td>
+            </div>
+        </div>
+    </body>
+</html>

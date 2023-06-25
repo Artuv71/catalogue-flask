@@ -1,0 +1,49 @@
+body 
+{
+    background-image: url("/staticFiles/images/parchemin.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.my-text {
+    margin-left: 15%;
+  }
+table{
+    margin-left: 15%;
+      
+}
+
+.container {
+    display: flex; 
+    align-items: center; 
+    margin-left: 15%;
+  }
+  
+img {
+    margin-right: 10px; 
+  }
+
+td{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    text-decoration: center;
+}
+
+h1{
+    padding-left: 15%;
+}
+
+p{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.button-container {
+    
+    display: flex;
+    flex-direction: column;
+  }
+
+.button-container button {
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
